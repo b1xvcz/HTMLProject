@@ -1,16 +1,46 @@
 ﻿<!DOCTYPE html>
-<html lang="pl">
+<html lang="pl"><!--Here I refer the language of the site-->
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" /><!---To proper text interpretation you have to set the code character set-->
     <link rel="stylesheet" type="text/css" href="styles/generalstyle.css" />
+    <link rel="stylesheet" type="text/css" href="styles/secondarystyle.css" />
     <title>WEB Project</title>
 </head>
 <body>
+    <h4 id="MENU">Main Menu</h4>
     <div class="large-menu">
         <ul>
             <li><a href="JavaScript.html">Praktyczne użycie JS</a></li>
             <li><a href="About.html">Dlatego musisz oglądać tę stronę</a></li>
         </ul>
-    </div>
+    </div><br />
+    <br />
+    <table>
+       <colgroup>
+            <col id="Pierwsza Kolumna" />
+            <tr>
+                <td>
+                    Tekst
+                </td>
+                <td>Tekst2</td>
+            </tr>
+            <col />
+        </colgroup>
+        <colgroup>
+            <col class="CoolColumn" />
+            <col class="NeatColumn" span="2" />
+        </colgroup>
+    </table><br />
+    <br />
+    <table>
+        <tr>
+            <td> kolumna</td>
+            <td>tekst</td>
+        </tr>
+    </table>
 </body>
+<footer>
+    <a href='#MENU'>GO TO TOP</a><br />
+    <a href="mailto:b1xvcz@outlook.com?subject=Question about site">Send Us a Mail</a>
+</footer>
 </html>

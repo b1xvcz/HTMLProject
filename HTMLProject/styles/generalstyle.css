@@ -1,4 +1,10 @@
 ﻿body {
-    background-image:url("../img/background.jpg")
-    
+    background-image:url("../img/background.jpg");
+    h1 {
+           color:coral;
+           font-size: 30px;
+       }
+       ul {
+           list-style-type:circle;
+       }
 }
